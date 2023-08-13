@@ -1,0 +1,34 @@
+@import './base.css';
+
+#app {
+
+  height: 100vh;
+  font-weight: normal;
+  display: flex;
+  background-color: #131c44;
+}
+
+:root {
+  --oruga-sidebar-content-background-color: #131c44;
+  --oruga-button-color: #131c44;
+  --oruga-button-background-color: #ef4b69;
+  --oruga-field-label-color: #ef4b69;
+  --oruga-sidebar-box-shadow: transparent;
+}
+
+input:disabled {
+  background-color: rgba(239, 239, 239, 0.3);
+  border-color: rgba(118, 118, 118, 0.3);
+}
+
+.o-side__content {
+  justify-content: space-between
+}
+
+.o-icon {
+  color: #ef4b69;
+}
+
+p {
+  color: #ef4b69;
+}
